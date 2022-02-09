@@ -1,1 +1,13 @@
-trial run 2 
+echo "# trial" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Naveen-R27/trial.git
+git push -u origin main
+
+for exisiting folder-->
+
+git remote add origin https://github.com/Naveen-R27/trial.git
+git branch -M main
+git push -u origin main
